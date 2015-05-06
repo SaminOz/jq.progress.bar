@@ -56,10 +56,11 @@
     }(i));
   };
 }(jQuery));
-
+//add progress bar
 $.progress('body', 30);
 
 setTimeout(function(){
+//finish/remove progress bar
   $.progress('body', null, 1);
 },20000);
 
